@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -30,7 +29,6 @@ body {
     text-decoration: none;
 }
 
-/* Home Section */
 .home {
     text-align: center;
     padding: 60px 20px;
@@ -38,7 +36,6 @@ body {
     color: white;
 }
 
-/* About Me Section */
 .about-me {
     background-color: #fff;
     padding: 40px;
@@ -61,7 +58,6 @@ body {
     border-radius: 50%;
 }
 
-/* Portfolio Grid Styling */
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -90,7 +86,6 @@ body {
     margin: 15px 0;
 }
 
-/* Dropdown Details */
 .dropdown-details {
     margin-top: 10px;
 }
@@ -112,7 +107,6 @@ body {
     border-radius: 5px;
 }
 
-/* Footer Section */
 footer {
     text-align: center;
     padding: 20px;
@@ -126,7 +120,6 @@ footer {
     text-decoration: none;
 }
 
-/* Responsive Styles */
 @media (max-width: 600px) {
     .navbar {
         flex-direction: column;
