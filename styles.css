@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font: 1.5em sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Home Section */
+.home {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #007BFF;
+    color: white;
+}
+
+/* About Me Section */
+.about-me {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.about-me h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    font-size: 18px;
+    color: #333;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Portfolio Grid Styling */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.portfolio-card {
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.portfolio-card h3 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+/* Dropdown Details */
+.dropdown-details {
+    margin-top: 10px;
+}
+
+.dropdown-details button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.details {
+    display: none;
+    margin-top: 10px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
