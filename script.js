@@ -8,5 +8,5 @@ function toggleDetails(detailId) {
 }
 
 function showCategory(url) {
-    window.location.href = url; // Redirect to the specified URL within the same tab
+    window.location.href = url;
 }
